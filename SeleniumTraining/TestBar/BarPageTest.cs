@@ -3,12 +3,12 @@ using Xunit;
 
 namespace TestBar;
 
-public class UnitTest1 : IClassFixture<Setup>
+public class BarPageTest : IClassFixture<Setup>
 {
     private IWebDriver _driver;
     private BarPage _barPage;
 
-    public UnitTest1(Setup setup)
+    public BarPageTest(Setup setup)
     {
         _driver = setup.Driver;
         _barPage = new BarPage(_driver);
@@ -18,10 +18,14 @@ public class UnitTest1 : IClassFixture<Setup>
     public void Test1()
     {
         _driver.Navigate().GoToUrl("https://bar.craftlabit.be");
-        var button  = _barPage.GetButton("SANS GLUTEN");
-        button.Click();
+        var noGluttenButton  = _barPage.GetButton("SANS GLUTEN");
+        noGluttenButton.Click();
         
         var token = _barPage.GetToken("orange");
         Assert.Equal("1", token.Text());
+        
+        var maesButton  = _barPage.GetButton("SANS GLUTEN");
+        maesButton.Click();
+        Assert.Equal("2", token.Text());
     }
 }

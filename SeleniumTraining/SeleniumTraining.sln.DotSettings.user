@@ -1,10 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/home/worming/.cache/JetBrains/Rider2022.2/resharper-host/temp/Rider/vAny/CoverageData/_SeleniumTraining.1062798527/Snapshot/snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6642f475_002D4b3b_002D441a_002D9181_002D7b27c4c629c8/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="1" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::7259FA8F-936D-47F7-81DE-380EB9568A10::net6.0::TestBar.UnitTest1.Test1&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7259FA8F-936D-47F7-81DE-380EB9568A10::net6.0::TestBar.UnitTest2.Print&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7259FA8F-936D-47F7-81DE-380EB9568A10::net6.0::TestBar.UnitTest2.GetEnv&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ea4e3a7_002D9715_002D4eb1_002Da8dc_002Df7b22a4e1673/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String>
+	
+	
 	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/EnvironmentVariablesIndexed/=PATH/@EntryIndexedValue">$PATH:/home/worming/drivers:/usr/bin</s:String></wpf:ResourceDictionary>
